@@ -1,0 +1,174 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px; 
+}
+
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.search-bar {
+    width: 40%;
+    background: linear-gradient(to right, #1F6D8C 80%, #F26E22 20%);
+    border: 1px solid #cfcdcd;
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -320px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.search-bar input[type="text"]::placeholder {
+    color: #ffffff;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    opacity: 0.7;
+}
+
+.search-bar button i {
+    color: #fff;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    margin-top: -100px; 
+}
+
+.button {
+    margin-left: 20px;
+    border: 1px solid #1F6D8C;
+    background-color: #1F6D8C;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:last-child {
+    border: 1px solid #F26E22;
+    background-color: transparent;
+    color: #F26E22;
+}
+
+.button:last-child:hover {
+    background-color: #f5c6a6;
+}
+
+
+
+.user-menu {
+    display: flex;
+    gap: 10px;
+}
+
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel {
+    position: relative;
+    width: 90%; 
+    max-width: 900px; 
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.inicial h2{
+    font-size: 32px;
+    
+
+}
